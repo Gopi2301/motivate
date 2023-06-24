@@ -1,0 +1,24 @@
+@import './root';
+
+.hero-title {
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.hero-title__span {
+    @extend .hero-title;
+    color: $secondary-color;
+}
+
+.about__left-section-title {
+    font-size: 28px;
+    line-height: 30px;
+}
+
+.works::before {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: map-get($font-weight, extra-bold);
+    color: $accent-color;
+    letter-spacing: 3px;
+}

@@ -1,0 +1,34 @@
+@import './base/reset';
+@import'./utils/container';
+@import './utils/images';
+@import './components/header';
+@import './helpers/clearfix';
+@import './base/root';
+@import './base/typo';
+@import './utils/flow';
+@import './layouts/works';
+
+.hero {
+    padding-top: 170px;
+    text-align: center;
+}
+
+.hero-icons-item {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.works {
+    margin-top: 120px;
+    // position: relative;
+
+}
+
+.about {
+    margin-top: 120px;
+}
+
+.about__left-section-ui-desc {
+    margin-top: 30px;
+}
