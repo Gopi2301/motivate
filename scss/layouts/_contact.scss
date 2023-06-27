@@ -1,0 +1,51 @@
+.contact {
+    margin-top: 100px;
+}
+
+.contact-card {
+    display: inline-block;
+    width: 30%;
+}
+
+.contact__icons {
+    margin-top: 30px;
+}
+
+.contact__icons-item {
+    display: inline-block;
+}
+
+.contact-forms {
+    display: inline-block;
+    width: calc(60% - 30px);
+    padding-left: 30px;
+}
+
+.submit {
+    display: inline-block;
+
+}
+
+.contact-input {
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-bottom: 1px solid $accent-color;
+
+    &:placeholder-shown {
+        color: $accent-color;
+        font-size: 16px;
+        opacity: 0.5;
+
+    }
+
+    &:focus {
+        outline: transparent;
+    }
+}
+
+.submit-button {
+    position: absolute;
+    border: none;
+    font-size: 24px;
+}

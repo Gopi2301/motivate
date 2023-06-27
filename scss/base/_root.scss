@@ -2,7 +2,9 @@ $primary-color: red;
 $secondary-color: #007fff;
 $accent-color: #979797;
 $font-weight: (
+    'normal':400,
     'extra-bold':800,
     'bold':700,
     'semibold':600,
 );
+$assetPath: "/asset"

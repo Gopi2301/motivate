@@ -2,7 +2,6 @@
 
 .header {
     padding-top: 50px;
-    // position: fixed;
     width: calc(100% - 380px);
 }
 
@@ -31,4 +30,8 @@
     margin-right: 55px;
     font-weight: map-get($font-weight, bold);
     color: $secondary-color;
+}
+
+.header__list--item>a {
+    text-decoration: none;
 }

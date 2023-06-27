@@ -1,0 +1,22 @@
+.links {
+    margin-top: 120px;
+}
+
+.links__list--item {
+    color: $secondary-color;
+    text-decoration: none;
+}
+
+.list-year {
+    float: right;
+    text-align: right;
+    line-height: 1.7;
+}
+
+.link__list {
+    width: calc(100% - 30px);
+}
+
+.link-right {
+    margin-left: 30px;
+}

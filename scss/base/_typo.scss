@@ -10,15 +10,42 @@
     color: $secondary-color;
 }
 
-.about__left-section-title {
-    font-size: 28px;
-    line-height: 30px;
-}
-
 .works::before {
     text-transform: uppercase;
     font-size: 12px;
     font-weight: map-get($font-weight, extra-bold);
     color: $accent-color;
     letter-spacing: 3px;
+}
+
+.card-desc {
+    margin-top: 30px;
+    font-size: 28px;
+    line-height: 36px;
+    color: #fff;
+    font-weight: map-get($font-weight, bold);
+
+}
+
+.about__section-title {
+    font-size: 28px;
+    line-height: 30px;
+    font-weight: map-get($font-weight, normal);
+
+}
+
+.about__section-desc {
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.links__list {
+    font-size: 12px;
+}
+
+.links__list--item {
+    // text-align: right;
+    font-size: 12px;
+    line-height: 1.88;
 }

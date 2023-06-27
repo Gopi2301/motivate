@@ -7,6 +7,13 @@
 @import './base/typo';
 @import './utils/flow';
 @import './layouts/works';
+@import './components/featured';
+@import './layouts/about';
+@import './layouts/links';
+@import './layouts/contact';
+@import './layouts/divider';
+@import './components/button';
+
 
 .hero {
     padding-top: 170px;
@@ -21,7 +28,6 @@
 
 .works {
     margin-top: 120px;
-    // position: relative;
 
 }
 
