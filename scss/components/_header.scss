@@ -1,8 +1,12 @@
 @import '../base/root';
 
 .header {
+    position: fixed;
+    width: 100vw;
+    background-color: #fff;
+    z-index: 2;
     padding-top: 50px;
-    width: calc(100% - 380px);
+    // width: calc(100% - 380px);
 }
 
 .header-block {
@@ -34,4 +38,5 @@
 
 .header__list--item>a {
     text-decoration: none;
+    color: $secondary-color;
 }
