@@ -45,7 +45,29 @@
 }
 
 .links__list--item {
-    // text-align: right;
     font-size: 12px;
     line-height: 1.88;
+}
+
+.contact-card__title {
+    font-size: 28px;
+    line-height: 30px;
+    font-weight: map-get($font-weight, semi-bold);
+}
+
+.contact__desc {
+    font-size: 16px;
+    line-height: 1.88;
+    font-weight: map-get($font-weight, semi-bold);
+
+}
+
+.copywrite {
+    font-size: 16px;
+    line-height: 30px;
+
+}
+
+.footer-links__list--item {
+    color: $accent-color;
 }

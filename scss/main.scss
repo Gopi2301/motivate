@@ -1,9 +1,10 @@
+@import './base/root';
+@import './utils/decor.scss';
 @import './base/reset';
 @import'./utils/container';
 @import './utils/images';
 @import './components/header';
 @import './helpers/clearfix';
-@import './base/root';
 @import './base/typo';
 @import './utils/flow';
 @import './layouts/works';
@@ -13,7 +14,11 @@
 @import './layouts/contact';
 @import './layouts/divider';
 @import './components/button';
-
+@import './components/footer';
+@import './components/icons';
+@import './layouts/hero';
+@import './media/mobile';
+@import './utils/hover';
 
 .hero {
     padding-top: 170px;

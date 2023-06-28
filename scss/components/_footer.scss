@@ -1,0 +1,29 @@
+.footer {
+    padding: 120px 40px;
+}
+
+.copywrite {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+
+}
+
+.footer-links__list {
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+    margin-left: -5px;
+}
+
+
+.footer-links__list--item {
+    display: inline-block;
+    margin-left: 40px;
+    text-decoration: none;
+
+    & a {
+        text-decoration: none;
+    }
+
+}

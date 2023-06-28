@@ -1,9 +1,11 @@
 .col-left {
     float: left;
-    width: 50%;
+    padding-left: 40px;
+    width: calc(50% - 40px);
 }
 
 .col-right {
     float: right;
-    width: 50%;
+    padding-right: 40px;
+    width: calc(50% - 40px);
 }

@@ -1,3 +1,21 @@
+.works {
+    // padding: 0 40px;
+
+    // position: relative;
+    &::before {
+        content: 'WORKS';
+        display: inline-block;
+
+        margin-right: 40px;
+        transform: rotate(-90deg) translateX(-40px) translateY(-40px);
+
+    }
+}
+
+// .works-container {
+//     padding: 0 40px;
+// }
+
 .works__left-section-card1 {
     position: relative;
     height: 505px;

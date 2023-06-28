@@ -1,0 +1,10 @@
+@import'../base/root';
+
+.hover:hover {
+    color: $accent-color;
+}
+
+
+img.scale:hover {
+    transform: scale(1.5);
+}

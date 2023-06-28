@@ -1,3 +1,12 @@
+.links::before {
+    content: 'LINKS';
+    display: inline-block;
+    color: $accent-color;
+    margin-right: 40px;
+    transform: rotate(-90deg) translateX(-40px) translateY(-40px);
+
+}
+
 .links {
     margin-top: 120px;
 }
@@ -15,6 +24,7 @@
 
 .link__list {
     width: calc(100% - 30px);
+    margin-bottom: 30px;
 }
 
 .link-right {

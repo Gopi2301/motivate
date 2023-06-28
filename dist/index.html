@@ -19,8 +19,8 @@
             <nav class="nav clearfix">
                 <div class="header__left header-block">
                     <ul class="header__list ">
-                        <li class="header__list--item"><a href="javascript:void(0)">Works</a></li>
-                        <li class="header__list--item"><a href="javascript:void(0)">About</a></li>
+                        <li class="header__list--item "><a class="hover" href="javascript:void(0)">Works</a></li>
+                        <li class="header__list--item hover"><a class="hover" href="javascript:void(0)">About</a></li>
                     </ul>
                 </div>
                 <div class="header__logo header-block"><a href="javascript:void(0)"><img src="../asset/profile.png"
@@ -28,8 +28,8 @@
                 </div>
                 <div class="header__right header-block">
                     <ul class="header__list">
-                        <li class="header__list--item"><a href="javascript:void(0)">Links</a></li>
-                        <li class="header__list--item"><a href="javascript:void(0)">contacts</a></li>
+                        <li class="header__list--item"><a class="hover" href="javascript:void(0)">Links</a></li>
+                        <li class="header__list--item"><a class="hover" href="javascript:void(0)">contacts</a></li>
                     </ul>
                 </div>
             </nav>
@@ -40,17 +40,18 @@
         </h1>
 
         <ul class="hero-icons">
-            <li class="hero-icons-item"><a href="javascript:void(0)"><img class="social-icon" src="../asset/shape.png"
-                        alt="twitter-logo"></a></li>
-            <li class="hero-icons-item"><a href="javascript:void(0)"><img src="../asset/be.png" class="social-icon"
+            <li class="social-icons"><a href="javascript:void(0)"><img class="social-icon scale"
+                        src="../asset/shape.png" alt="twitter-logo"></a></li>
+            <li class="social-icons"><a href="javascript:void(0)"><img src="../asset/be.png" class="social-icon scale"
                         alt="bi-logo"></a>
             </li>
-            <li class="hero-icons-item"><a href="javascript:void(0)"><img src="../asset/instagram.png"
-                        class="social-icon" alt="insta-logo"></a></li>
+            <li class="social-icons"><a href="javascript:void(0)"><img src="../asset/instagram.png"
+                        class="social-icon scale" alt="insta-logo"></a></li>
         </ul>
     </section>
-    <section class="works container clearfix">
-        <div class="works__left-section col-left">
+    <section class="works container">
+        <div class="works-container clearfix"">
+        <div class=" works__left-section col-left">
             <div class="works__left-section-card1 ">
                 <h2 class="card-desc featured">Motivation Is The <br>First Step To Success</h2>
             </div>
@@ -58,7 +59,6 @@
                 <h2 class="card-desc">Benjamin Franklin S<br> Method Of Habit <br>Formation</h2>
             </div>
         </div>
-        <div></div>
         <div class="works__right-section col-right">
             <div class="works__left-section-card3">
                 <h2 class="card-desc">How Great Is The <br>Strength Of Your Belief</h2>
@@ -67,8 +67,9 @@
                 <h2 class="card-desc featured">Increasing Prosperity <br>With Positive Thinking</h2>
             </div>
         </div>
+        </div>
     </section>
-    <article class="about container">
+    <article class="about container-lg">
         <div class=" about-section__row clearfix">
             <div class="about__left-cards col-left">
                 <h2 class="about__section-title">UX/UI</h2>
@@ -93,7 +94,7 @@
                     motivational screensavers and wallpapers. So motivate everyone who needs the boost.</p>
             </div>
 
-            <div class=" about__left-cards col-right">
+            <div class=" about__right-cards col-right">
                 <h2 class="about__section-title">Development</h2>
                 <p class="about__section-desc">Personally, the importance does not lie in what religion you are;
                     however, a lack of religion does seem to run parallel with depression. This is classified as
@@ -101,43 +102,56 @@
             </div>
         </div>
         <ul class="about-icons">
-            <li class="about-icons__item"><img src="../asset/google.png"></li>
-            <li class="about-icons__item"><img src="../asset/airbnb.png"></li>
-            <li class="about-icons__item"><img src="../asset/dropbox.png"></li>
+            <li class="about-icons__item"><a href="javascript:void(0)"><img src="../asset/google.png"></a></li>
+            <li class="about-icons__item"><a href="javascript:void(0)"><img src="../asset/airbnb.png"></a></li>
+            <li class="about-icons__item"><a href="javascript:void(0)"><img src="../asset/dropbox.png"></a></li>
         </ul>
     </article>
     <section class="links container clearfix">
-        <ul class="links__list col-left">
-            <li class="link__list"><a href="javascript:void(0)" class="links__list--item">Harness The Power Of
-                    Words In Your Life</a><span class="list-year">2018</span></li>
-            <li class="link__list"><a href="javascript:void(0)" class="links__list--item">Benjamin Franklin S Method
-                    Of Habit Formation</a><span class="list-year">2018</span></li>
-            <li class="link__list"><a href="javascript:void(0)" class="links__list--item">Hypnotize Yourself Into
-                    The Ghost Of Christmas Future</a><span class="list-year">2017</span></li>
-            <li class="link__list"><a href="javascript:void(0)" class="links__list--item">Self Motivation How To
-                    Keep Yourself Motivated</a><span class="list-year">2016</span></li>
-        </ul>
-        <ul class="links__list  col-right">
-            <li class="link__list link-right"><a href="javascript:void(0)" class="links__list--item">A Starter Guide To
-                    Self
-                    Improvement</a><span class="list-year">2018</span></li>
-            <li class="link__list link-right"><a href="javascript:void(0)" class="links__list--item">Does Your Life Lack
-                    Meaning</a><span class="list-year">2018</span></li>
-            <li class="link__list link-right"><a href="javascript:void(0)" class="links__list--item">Hypnotize Yourself
-                    Into
-                    The Ghost Of Christmas Future</a><span class="list-year">2018</li>
-        </ul>
+        <div class="linksgroup">
+            <ul class="links__list col-left">
+                <li class="link__list"><a href="javascript:void(0)" class="links__list--item hover">Harness The Power Of
+                        Words In Your Life</a><span class="list-year">2018</span></li>
+                <li class="link__list"><a href="javascript:void(0)" class="links__list--item hover">Benjamin Franklin S
+                        Method
+                        Of Habit Formation</a><span class="list-year">2018</span></li>
+                <li class="link__list"><a href="javascript:void(0)" class="links__list--item hover">Hypnotize Yourself
+                        Into
+                        The Ghost Of Christmas Future</a><span class="list-year">2017</span></li>
+                <li class="link__list"><a href="javascript:void(0)" class="links__list--item hover">Self Motivation How
+                        To
+                        Keep Yourself Motivated</a><span class="list-year">2016</span></li>
+            </ul>
+            <ul class="links__list  col-right">
+                <li class="link__list link-right"><a href="javascript:void(0)" class="links__list--item hover">A Starter
+                        Guide
+                        To
+                        Self
+                        Improvement</a><span class="list-year">2018</span></li>
+                <li class="link__list link-right"><a href="javascript:void(0)" class="links__list--item hover">Does Your
+                        Life
+                        Lack
+                        Meaning</a><span class="list-year">2018</span></li>
+                <li class="link__list link-right"><a href="javascript:void(0)" class="links__list--item hover">Hypnotize
+                        Yourself
+                        Into
+                        The Ghost Of Christmas Future</a><span class="list-year">2018</li>
+            </ul>
+        </div>
     </section>
     <hr class="divider">
     <section class="contact container">
         <div class="contact-card">
-            <h2 class="contact-card__title">Contacts</h2>
+
             <p class="contact__desc">Positive pleasure-oriented goals are much more powerful motivators than negative
                 fear-based ones.</p>
             <ul class="contact__icons">
-                <li class="contact__icons-item"><a><img src="../asset/shape.png" alt=""></a></li>
-                <li class="contact__icons-item"><a><img src="../asset/be.png" alt=""></a></li>
-                <li class="contact__icons-item"><a><img src="../asset/instagram.png" alt=""></a></li>
+                <li class="social-icons"><a href="javascript:void(0)"><img class="scale" src="../asset/shape.png"
+                            alt="instagram"></a></li>
+                <li class="social-icons"><a href="javascript:void(0)"><img class="scale" src="../asset/be.png"
+                            alt="be"></a></li>
+                <li class="social-icons"><a href="javascript:void(0)"><img class="scale" src="../asset/instagram.png"
+                            alt="twitter"></a></li>
             </ul>
         </div>
         <div class="contact-forms">
@@ -150,10 +164,18 @@
                 <input placeholder="Your question or suggestion" class="contact-input" type="text" name=""
                     id="message"><br>
                 <button class="submit-button" type="submit"><img alt="submit" class="submit-button"
-                        src="../asset/send (1).png" alt="">
+                        src="../asset/send (2).png" alt="">
                 </button>
             </form>
         </div>
+    </section>
+    <section class="footer container">
+        <p class="copywrite">Copyright © 2018 Denis Abdullin – deab.ru</p>
+        <ul class="footer-links__list">
+            <li class="footer-links__list--item"><a class="hover" href="javascript:void(0)">Invoicing</a></li>
+            <li class="footer-links__list--item"><a class="hover" href="javascript:void(0)">Documents</a></li>
+
+        </ul>
     </section>
 </body>
 

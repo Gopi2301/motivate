@@ -1,11 +1,22 @@
 .contact {
     margin-top: 100px;
+    padding: 0 40px;
 }
 
 .contact-card {
     display: inline-block;
     width: 30%;
+
+    &::before {
+        content: 'Contacts';
+        font-size: 28px;
+        line-height: 30px;
+        display: inline-block;
+        margin-bottom: 40px;
+    }
 }
+
+
 
 .contact__icons {
     margin-top: 30px;
@@ -16,6 +27,7 @@
 }
 
 .contact-forms {
+    position: relative;
     display: inline-block;
     width: calc(60% - 30px);
     padding-left: 30px;
@@ -36,7 +48,7 @@
         color: $accent-color;
         font-size: 16px;
         opacity: 0.5;
-
+        margin-bottom: 30px;
     }
 
     &:focus {
@@ -44,8 +56,15 @@
     }
 }
 
+.contact__icons-item {
+    margin-right: 30px;
+}
+
 .submit-button {
     position: absolute;
+    top: 10px;
+    right: -40px;
     border: none;
     font-size: 24px;
+    cursor: pointer;
 }
