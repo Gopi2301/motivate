@@ -269,10 +269,39 @@
     }
 
     .submit-button {
-        position: static;
-        display: block;
-        width: 52px;
-        margin-left: auto;
+        @include screen (480px) {
+            position: static;
+            display: block;
+            width: 52px;
+            margin-left: auto;
+        }
 
+
+    }
+}
+
+.footer {
+    @include screen(480px) {
+        padding: 80px 40px;
+    }
+
+    .copywrite {
+        @include screen(480px) {
+            font-size: 12px;
+            display: block;
+            width: 100%;
+        }
+    }
+
+    .footer-links__list {
+        @include screen(480px) {
+            text-align: left;
+        }
+    }
+
+    .footer-links__list--item {
+        padding: 0;
+        margin-top: 10px;
+        margin-left: 0;
     }
 }

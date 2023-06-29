@@ -715,11 +715,36 @@ table {
     padding-left: 0;
   }
 }
-.contact .submit-button {
-  position: static;
-  display: block;
-  width: 52px;
-  margin-left: auto;
+@media only screen and (max-width: 480px) {
+  .contact .submit-button {
+    position: static;
+    display: block;
+    width: 52px;
+    margin-left: auto;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .footer {
+    padding: 80px 40px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .footer .copywrite {
+    font-size: 12px;
+    display: block;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .footer .footer-links__list {
+    text-align: left;
+  }
+}
+.footer .footer-links__list--item {
+  padding: 0;
+  margin-top: 10px;
+  margin-left: 0;
 }
 
 .hover:hover {
