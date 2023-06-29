@@ -3,3 +3,276 @@
         @content;
     }
 }
+
+// container & flow 
+.container {
+    @include screen(480px) {
+        margin: 0 30px;
+    }
+}
+
+.col-left {
+    @include screen(480px) {
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+
+}
+
+.col-right {
+    @include screen(480px) {
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+}
+
+// Header
+.header {
+
+    .header__list {
+        @include screen(480px) {
+            display: none;
+        }
+    }
+
+    .header__logo {
+        @include screen(480px) {
+            display: block;
+            width: 100%;
+            margin: 0 auto;
+
+            a {
+                @include screen(480px) {
+                    text-align: center;
+
+                }
+            }
+        }
+    }
+}
+
+// hero section
+.hero {
+    @include screen(480px) {
+        padding-top: 120px !important;
+
+    }
+
+    .hero-title {
+        @include screen(480px) {
+            font-size: 28px;
+            line-height: 36px;
+        }
+    }
+}
+
+// work
+.works {
+    &::before {
+        @include screen(480px) {
+            transform: rotate(0);
+            display: block;
+            text-align: center;
+        }
+
+    }
+
+    .works-container {
+        .works__left-section-card1 {
+            @include screen(480px) {
+                width: 100%;
+
+            }
+
+            .card-desc {
+                @include screen(480px) {
+                    bottom: 30px;
+                    left: 30px;
+                    font-size: 18px;
+                    line-height: 26px;
+                }
+            }
+
+            &:nth-child(1) {
+                @include screen(480px) {
+                    height: 306px;
+                    margin-top: 30px;
+                }
+
+
+            }
+
+            &:nth-child(2) {
+                @include screen(480px) {
+                    height: 446px;
+                    margin-top: 30px;
+                }
+
+            }
+        }
+
+        .works__right-section {
+            @include screen(480px) {
+                width: 100%;
+
+            }
+
+            &>div {
+                @include screen (480px) {
+                    margin-left: 0;
+
+                }
+            }
+
+            .works__left-section-card3 {
+                @include screen (480px) {
+                    height: 404px;
+                }
+            }
+
+            .works__left-section-card4 {
+                @include screen (480px) {
+                    height: 264px;
+                }
+            }
+        }
+    }
+}
+
+// About
+.about {
+    @include screen(480px) {
+        margin-top: 60px !important;
+    }
+
+    &::before {
+        @include screen(480px) {
+            transform: rotate(0);
+            display: block;
+            text-align: center;
+            margin-right: 0;
+        }
+    }
+
+
+    .about__section-title {
+        @include screen(480px) {
+            font-size: 18px;
+
+        }
+    }
+
+    .about__section-desc {
+        @include screen(480px) {
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+    }
+
+    .about-icons__item {
+        @include screen (480px) {
+            padding: 0;
+            width: calc((100%/3) - 30px);
+            margin-right: 30px;
+
+        }
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        & img {
+            @include screen(480px) {
+                object-fit: contain;
+                width: 100%;
+            }
+        }
+    }
+}
+
+.links {
+    margin-top: 60px;
+
+    &::before {
+        @include screen(480px) {
+            transform: rotate(0);
+            display: block;
+            text-align: center;
+        }
+    }
+
+    .linksgroup {
+        margin-top: 30px;
+    }
+
+    .list-year {
+        @include screen(480px) {
+            float: none;
+            margin-left: 5px;
+        }
+
+    }
+
+    .link-right {
+        @include screen(480px) {
+            float: none;
+            margin-left: 0;
+        }
+    }
+
+    .link__list {
+        margin-bottom: 10px;
+    }
+}
+
+.divider {
+    @include screen(480px) {
+        margin-top: 60px;
+
+    }
+}
+
+.contact {
+    @include screen(480px) {
+        margin-top: 60px;
+    }
+
+    .contact-card {
+        @include screen(480px) {
+            display: block;
+            width: 100%;
+        }
+    }
+
+    .contact-card::before {
+        @include screen(480px) {
+            font-size: 18px;
+        }
+    }
+
+    .contact__desc {
+        @include screen(480px) {
+            font-size: 16px;
+        }
+    }
+
+    .contact-forms {
+        @include screen(480px) {
+
+            margin-top: 60px;
+            width: 100%;
+            padding-left: 0;
+        }
+    }
+
+    .submit-button {
+        position: static;
+        display: block;
+        width: 52px;
+        margin-left: auto;
+
+    }
+}
