@@ -191,6 +191,40 @@ table {
   color: #007fff;
 }
 
+.menu {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.top {
+  position: absolute;
+  background-color: #007fff;
+  width: 30px;
+  height: 5px;
+  top: 10px;
+  left: 10px;
+  transition: transform 0.8s;
+}
+
+.bottom {
+  position: absolute;
+  background-color: #007fff;
+  width: 30px;
+  height: 5px;
+  top: 25px;
+  left: 10px;
+  transition: transform 0.8s;
+}
+
+.box {
+  background-color: green;
+  width: 50px;
+  height: 50px;
+}
+
 .clearfix::after {
   content: "";
   clear: both;
@@ -542,6 +576,35 @@ table {
 }
 @media only screen and (max-width: 480px) and (max-width: 480px) {
   .header .header__logo a {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .header .menu {
+    display: block;
+    position: absolute;
+    top: 60px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .header .mobile-menu {
+    background-color: #fff;
+    display: block;
+    position: absolute;
+    width: 100vw;
+    opacity: 0;
+    transition: opacity 0.8s;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .header .mobile-menu a {
+    text-decoration: none;
+    color: #007fff;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .header .mobile-menu .mobile-menu__item {
+    padding: 20px 0;
     text-align: center;
   }
 }

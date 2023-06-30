@@ -40,3 +40,38 @@
     text-decoration: none;
     color: $secondary-color;
 }
+
+// MENU
+.menu {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.top {
+    position: absolute;
+    background-color: $secondary-color;
+    width: 30px;
+    height: 5px;
+    top: 10px;
+    left: 10px;
+    transition: transform .8s;
+}
+
+.bottom {
+    position: absolute;
+    background-color: $secondary-color;
+    width: 30px;
+    height: 5px;
+    top: 25px;
+    left: 10px;
+    transition: transform .8s;
+}
+
+.box {
+    background-color: green;
+    width: 50px;
+    height: 50px;
+}

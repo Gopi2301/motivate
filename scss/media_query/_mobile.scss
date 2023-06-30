@@ -1,3 +1,5 @@
+@import '../base/root';
+
 @mixin screen($breakpoint) {
     @media only screen and (max-width:$breakpoint) {
         @content;
@@ -51,6 +53,41 @@
             }
         }
     }
+
+    .menu {
+        @include screen (480px) {
+            display: block;
+            position: absolute;
+            top: 60px;
+        }
+    }
+
+    .mobile-menu {
+        @include screen (480px) {
+            background-color: #fff;
+            display: block;
+            position: absolute;
+            width: 100vw;
+            opacity: 0;
+            transition: opacity 0.8s;
+        }
+
+
+        & a {
+            @include screen (480px) {
+                text-decoration: none;
+                color: $secondary-color;
+            }
+        }
+
+        .mobile-menu__item {
+            @include screen (480px) {
+                padding: 20px 0;
+                text-align: center;
+            }
+        }
+    }
+
 }
 
 // hero section
