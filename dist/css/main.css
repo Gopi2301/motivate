@@ -173,7 +173,7 @@ table {
   text-align: right;
 }
 
-.header__list > :last-child {
+.header__list> :last-child {
   margin-right: 0;
 }
 
@@ -186,7 +186,7 @@ table {
   color: #007fff;
 }
 
-.header__list--item > a {
+.header__list--item>a {
   text-decoration: none;
   color: #007fff;
 }
@@ -197,7 +197,8 @@ table {
   display: table;
 }
 
-.hero-title, .hero-title__span {
+.hero-title,
+.hero-title__span {
   font-size: 48px;
   line-height: 60px;
 }
@@ -283,7 +284,10 @@ table {
   transform: rotate(-90deg) translateX(-40px) translateY(-40px);
 }
 
-.works__left-section-card1, .works__left-section-card4, .works__left-section-card3, .works__left-section-card2 {
+.works__left-section-card1,
+.works__left-section-card4,
+.works__left-section-card3,
+.works__left-section-card2 {
   position: relative;
   height: 505px;
   width: calc(100% - 30px);
@@ -405,6 +409,7 @@ table {
   display: inline-block;
   width: 30%;
 }
+
 .contact-card::before {
   content: "Contacts";
   font-size: 28px;
@@ -438,12 +443,14 @@ table {
   height: 40px;
   border-bottom: 1px solid #979797;
 }
+
 .contact-input:placeholder-shown {
   color: #979797;
   font-size: 16px;
   opacity: 0.5;
   margin-bottom: 30px;
 }
+
 .contact-input:focus {
   outline: transparent;
 }
@@ -493,6 +500,7 @@ table {
   margin-left: 40px;
   text-decoration: none;
 }
+
 .footer-links__list--item a {
   text-decoration: none;
 }
@@ -502,7 +510,8 @@ table {
   display: inline-block;
 }
 
-.hero-title, .hero-title__span {
+.hero-title,
+.hero-title__span {
   padding: 40px 0;
 }
 
@@ -533,6 +542,7 @@ table {
     display: none;
   }
 }
+
 @media only screen and (max-width: 480px) {
   .header .header__logo {
     display: block;
@@ -540,6 +550,7 @@ table {
     margin: 0 auto;
   }
 }
+
 @media only screen and (max-width: 480px) and (max-width: 480px) {
   .header .header__logo a {
     text-align: center;
@@ -551,8 +562,11 @@ table {
     padding-top: 120px !important;
   }
 }
+
 @media only screen and (max-width: 480px) {
-  .hero .hero-title, .hero .hero-title__span {
+
+  .hero .hero-title,
+  .hero .hero-title__span {
     font-size: 28px;
     line-height: 36px;
   }
@@ -565,46 +579,70 @@ table {
     text-align: center;
   }
 }
+
 @media only screen and (max-width: 480px) {
-  .works .works-container .works__left-section-card1, .works .works-container .works__left-section-card2, .works .works-container .works__left-section-card3, .works .works-container .works__left-section-card4 {
+
+  .works .works-container .works__left-section-card1,
+  .works .works-container .works__left-section-card2,
+  .works .works-container .works__left-section-card3,
+  .works .works-container .works__left-section-card4 {
     width: 100%;
   }
 }
+
 @media only screen and (max-width: 480px) {
-  .works .works-container .works__left-section-card1 .card-desc, .works .works-container .works__left-section-card2 .card-desc, .works .works-container .works__left-section-card3 .card-desc, .works .works-container .works__left-section-card4 .card-desc {
+
+  .works .works-container .works__left-section-card1 .card-desc,
+  .works .works-container .works__left-section-card2 .card-desc,
+  .works .works-container .works__left-section-card3 .card-desc,
+  .works .works-container .works__left-section-card4 .card-desc {
     bottom: 30px;
     left: 30px;
     font-size: 18px;
     line-height: 26px;
   }
 }
+
 @media only screen and (max-width: 480px) {
-  .works .works-container .works__left-section-card1:nth-child(1), .works .works-container .works__left-section-card2:nth-child(1), .works .works-container .works__left-section-card3:nth-child(1), .works .works-container .works__left-section-card4:nth-child(1) {
+
+  .works .works-container .works__left-section-card1:nth-child(1),
+  .works .works-container .works__left-section-card2:nth-child(1),
+  .works .works-container .works__left-section-card3:nth-child(1),
+  .works .works-container .works__left-section-card4:nth-child(1) {
     height: 306px;
     margin-top: 30px;
   }
 }
+
 @media only screen and (max-width: 480px) {
-  .works .works-container .works__left-section-card1:nth-child(2), .works .works-container .works__left-section-card2:nth-child(2), .works .works-container .works__left-section-card3:nth-child(2), .works .works-container .works__left-section-card4:nth-child(2) {
+
+  .works .works-container .works__left-section-card1:nth-child(2),
+  .works .works-container .works__left-section-card2:nth-child(2),
+  .works .works-container .works__left-section-card3:nth-child(2),
+  .works .works-container .works__left-section-card4:nth-child(2) {
     height: 446px;
     margin-top: 30px;
   }
 }
+
 @media only screen and (max-width: 480px) {
   .works .works-container .works__right-section {
     width: 100%;
   }
 }
+
 @media only screen and (max-width: 480px) {
-  .works .works-container .works__right-section > div {
+  .works .works-container .works__right-section>div {
     margin-left: 0;
   }
 }
+
 @media only screen and (max-width: 480px) {
   .works .works-container .works__right-section .works__left-section-card3 {
     height: 404px;
   }
 }
+
 @media only screen and (max-width: 480px) {
   .works .works-container .works__right-section .works__left-section-card4 {
     height: 264px;
@@ -616,6 +654,7 @@ table {
     margin-top: 60px !important;
   }
 }
+
 @media only screen and (max-width: 480px) {
   .about::before {
     transform: rotate(0);
@@ -624,17 +663,20 @@ table {
     margin-right: 0;
   }
 }
+
 @media only screen and (max-width: 480px) {
   .about .about__section-title {
     font-size: 18px;
   }
 }
+
 @media only screen and (max-width: 480px) {
   .about .about__section-desc {
     font-size: 16px;
     margin-top: 10px;
   }
 }
+
 @media only screen and (max-width: 480px) {
   .about .about-icons__item {
     padding: 0;
@@ -642,9 +684,11 @@ table {
     margin-right: 30px;
   }
 }
+
 .about .about-icons__item:last-child {
   margin-right: 0;
 }
+
 @media only screen and (max-width: 480px) {
   .about .about-icons__item img {
     object-fit: contain;
@@ -655,6 +699,7 @@ table {
 .links {
   margin-top: 60px;
 }
+
 @media only screen and (max-width: 480px) {
   .links::before {
     transform: rotate(0);
@@ -662,21 +707,25 @@ table {
     text-align: center;
   }
 }
+
 .links .linksgroup {
   margin-top: 30px;
 }
+
 @media only screen and (max-width: 480px) {
   .links .list-year {
     float: none;
     margin-left: 5px;
   }
 }
+
 @media only screen and (max-width: 480px) {
   .links .link-right {
     float: none;
     margin-left: 0;
   }
 }
+
 .links .link__list {
   margin-bottom: 10px;
 }
@@ -692,22 +741,26 @@ table {
     margin-top: 60px;
   }
 }
+
 @media only screen and (max-width: 480px) {
   .contact .contact-card {
     display: block;
     width: 100%;
   }
 }
+
 @media only screen and (max-width: 480px) {
   .contact .contact-card::before {
     font-size: 18px;
   }
 }
+
 @media only screen and (max-width: 480px) {
   .contact .contact__desc {
     font-size: 16px;
   }
 }
+
 @media only screen and (max-width: 480px) {
   .contact .contact-forms {
     margin-top: 60px;
@@ -715,6 +768,7 @@ table {
     padding-left: 0;
   }
 }
+
 @media only screen and (max-width: 480px) {
   .contact .submit-button {
     position: static;
@@ -729,6 +783,7 @@ table {
     padding: 80px 40px;
   }
 }
+
 @media only screen and (max-width: 480px) {
   .footer .copywrite {
     font-size: 12px;
@@ -736,11 +791,13 @@ table {
     width: 100%;
   }
 }
+
 @media only screen and (max-width: 480px) {
   .footer .footer-links__list {
     text-align: left;
   }
 }
+
 .footer .footer-links__list--item {
   padding: 0;
   margin-top: 10px;
@@ -776,4 +833,6 @@ table {
 
 .about__left-section-ui-desc {
   margin-top: 30px;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */
