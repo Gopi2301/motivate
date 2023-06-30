@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/9d7b14dbf8.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href=".dist/css/main.css">
+    <link rel="stylesheet" href="dist/css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="./asset/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Motivate</title>
 </head>
 
 <body>
@@ -29,11 +30,31 @@
                 <div class="header__right header-block">
                     <ul class="header__list">
                         <li class="header__list--item"><a class="hover" href="javascript:void(0)">Links</a></li>
-                        <li class="header__list--item"><a class="hover" href="javascript:void(0)">contacts</a></li>
+                        <li class="header__list--item"><a class="hover" href="javascript:void(0)">Contacts</a></li>
                     </ul>
                 </div>
             </nav>
         </div>
+        <div class="menu">
+            <div class="top"></div>
+            <div class="bottom"></div>
+        </div>
+        <nav>
+            <ul class="mobile-menu">
+
+                <li class="mobile-menu__item"><a href="javascipt:void(0)">Works</a></li>
+                </a>
+
+                <li class="mobile-menu__item"><a href="javascipt:void(0)">About</a></li>
+                </a>
+
+                <li class="mobile-menu__item"><a href="javascipt:void(0)">Links</a></li>
+                </a>
+
+                <li class="mobile-menu__item"><a href="javascipt:void(0)">Contact</a></li>
+                </a>
+            </ul>
+        </nav>
     </header>
     <section class="hero container">
         <h1 class="hero-title">Motivation Is The First<br> Step To <span class="hero-title__span">Success</span>
@@ -102,9 +123,12 @@
             </div>
         </div>
         <ul class="about-icons">
-            <li class="about-icons__item"><a href="javascript:void(0)"><img src="../asset/google.png"></a></li>
-            <li class="about-icons__item"><a href="javascript:void(0)"><img src="../asset/airbnb.png"></a></li>
-            <li class="about-icons__item"><a href="javascript:void(0)"><img src="../asset/dropbox.png"></a></li>
+            <li class="about-icons__item"><a href="javascript:void(0)"><img src="../asset/google.png" alt="google"></a>
+            </li>
+            <li class="about-icons__item"><a href="javascript:void(0)"><img src="../asset/airbnb.png" alt="airbnb"></a>
+            </li>
+            <li class="about-icons__item"><a href="javascript:void(0)"><img src="../asset/dropbox.png"
+                        alt="dropbox"></a></li>
         </ul>
     </article>
     <section class="links container clearfix">
@@ -164,7 +188,7 @@
                 <input placeholder="Your question or suggestion" class="contact-input" type="text" name=""
                     id="message"><br>
                 <button class="submit-button" type="submit"><img alt="submit" class="submit-button"
-                        src="../asset/send (2).png" alt="">
+                        src="../asset/send (2).png" alt="submit">
                 </button>
             </form>
         </div>
@@ -177,6 +201,7 @@
 
         </ul>
     </section>
+    <script src="./script/index.js"></script>
 </body>
 
 </html>
