@@ -19,6 +19,12 @@
     text-align: left;
 }
 
+.header__logo {
+    a {
+        display: inline-block;
+    }
+}
+
 .header__right {
     text-align: right;
 }
